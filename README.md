@@ -5,7 +5,7 @@
 
 Video de referencia explicativa: https://youtu.be/ayADXm3kN1Q
 
-## Para comanzar
+## Para comenzar
 
 Este proyecto es un punto de partida para una aplicación Flutter.
 
