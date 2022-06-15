@@ -4,6 +4,7 @@
 <img src="/screenshot/circuit.jpg" Height="400">
 
 Video de referencia explicativa: https://youtu.be/ayADXm3kN1Q
+Créditos del video al canal https://www.youtube.com/c/Flutterkarma
 
 ## Para comenzar
 
@@ -17,4 +18,6 @@ Algunos recursos para comenzar si este es su primer proyecto de Flutter:
 Para obtener ayuda para comenzar con Flutter, consulte la
 [documentación en línea](https://flutter.dev/docs).
 
+
+Repositorio sólo para mayores de 18 años, descargo de responsabilidad absoluta por parte del autor.
 Feliz tronadera !!!!!
