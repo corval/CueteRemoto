@@ -1,7 +1,6 @@
 # Encendido de pirotecnia controlado por NODEMCU ESP8266
 
-<img src="/screenshot/app.png" Height="500">
-<img src="/screenshot/circuit.jpg" Height="400">
+<img src="IMG_20220614_182517027.jpg" Height="500">
 
 Video de referencia explicativa: https://youtu.be/ayADXm3kN1Q
 Créditos del video al canal https://www.youtube.com/c/Flutterkarma
