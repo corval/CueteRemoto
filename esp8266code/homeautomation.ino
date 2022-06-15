@@ -4,7 +4,7 @@ ESP8266WebServer server(80);
 
 void handle404();
 
-#define LED_PIN   D3   // if D3 not work just use 3
+#define LED_PIN   D3   // si D3 no funciona, sólo utiliza 3
 
 
 
@@ -14,8 +14,8 @@ void setup() {
 
   //WiFi-Setup
   Serial.begin(9600);
-  WiFi.begin("SSID", "PASSWORD"); //enter your ssid , password
-  Serial.print("Connecting");
+  WiFi.begin("SSID", "PASSWORD"); //credenciales del Wifi
+  Serial.print("Conectando");
   while (WiFi.status() != WL_CONNECTED)
   {
     delay(500);
@@ -23,7 +23,7 @@ void setup() {
   }
   Serial.println();
 
-  Serial.print("Connected, IP address: ");
+  Serial.print("Connectado, Direccion IP: ");
   Serial.println(WiFi.localIP());
 
   //Server-Setup
@@ -49,7 +49,7 @@ void loop()
 void handleStatus(){
   String bulboff ="0";
   if (!server.hasArg("bulb") || server.arg("bulb") == NULL  ){
-        server.send(400, "text/plain", "400: Invalid Request");
+        server.send(400, "text/plain", "400: Peticion Invalida");
         return;
       }
 
@@ -73,5 +73,5 @@ if(    server.arg("bulb")== bulboff){
 }
 
 void handle404(){
-  server.send(404, "text/plain", "404: Not found");
+  server.send(404, "text/plain", "404: No Encontrado");
 }
